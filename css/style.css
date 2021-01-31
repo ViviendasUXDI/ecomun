@@ -1,0 +1,206 @@
+/******** CSS Style ********/
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+/****************************/
+/********** Header **********/
+/****************************/
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div img {
+    width: 100%;
+}
+
+header div h1 {
+    position: absolute;
+    text-align: center;
+    margin: 0 18rem;
+}
+
+header div .cta-header {
+    position: absolute;
+    margin-top: 15rem;
+}
+
+
+
+/*****************************/
+.two-column {
+    display: flex;
+    flex-direction: row;
+    padding: 6.25rem 13.5rem;
+}
+
+.two-column img {
+    width: 29.125rem;
+    height: 19.25rem;
+    padding: 0 0.75rem;
+}
+
+.two-column div {
+    padding: 0 0.75rem;
+    align-self: center;
+}
+
+.card-home div.tit-section,
+.testimonio-home div.tit-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+.card-home div button {
+    position: absolute;
+    right: 9rem;
+    cursor: pointer;
+    padding-top: 0.5rem !important;
+}
+
+.card-home,
+.testimonio-home,
+.card-proyectos {
+    padding: 2rem 9rem 5rem 9rem;
+}
+
+
+/***********************/
+/******* Voluntarios ***/
+/***********************/
+.ser-voluntario {
+    text-align: center;
+    margin: 5rem;
+}
+
+.ser-voluntario > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 5rem;
+}
+
+.ser-voluntario div div {
+    width: 23rem;
+    margin: 0 1.4rem;
+}
+
+.ser-voluntario div div img {
+    width: 23rem;
+    border-radius: 0.625rem;
+}
+
+.ser-voluntario div div p {
+    padding: 0 1rem;
+}
+
+.video-voluntario {
+    background-color: #F2F2F2;
+    padding: 6.25rem 0;
+    text-align: center;
+}
+
+.video-voluntario iframe {
+    margin-top: 3.125rem;
+    border-radius: 1rem;
+}
+
+
+/*****************************/
+/******** Proyectos **********/
+/*****************************/
+
+.card-proyectos {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-proyectos .card-line {
+    margin-bottom: 4rem;
+}
+
+.top-proyecto {
+    padding: 3.5rem 0rem;
+    max-width: 71rem;
+    margin: auto;
+}
+
+.header-proyecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3.5rem;
+    align-self: center;
+}
+
+.proyectos-opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.proyectos-opciones input,
+.proyectos-opciones .filtros select {
+
+    border-radius: 0.5rem;
+    border: #878787 solid 1px;
+    padding: 1rem;
+
+}
+
+.proyectos-opciones input::placeholder {}
+
+.proyectos-opciones input:focus,
+.proyectos-opciones .filtros select {
+    outline: none;
+}
+
+.proyectos-opciones input {
+    width: 16.8rem;
+}
+
+.proyectos-opciones .filtros select {
+    color: black;
+    width: 10.5rem;
+    appearance: none;
+}
+
+.proyectos-opciones button {
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+
+.proyectos-opciones .search span, .proyectos-opciones .filtros span{
+    left: -2.5rem;
+    top: 0.5rem;
+    position: relative;
+}
+
+
+/**********************/
+/******* Footer *******/
+/**********************/
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}

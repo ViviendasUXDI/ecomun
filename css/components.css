@@ -1,0 +1,469 @@
+/******** CSS Components ********/
+
+/************************/
+/****** Typography ******/
+/************************/
+/*** Weight ***/
+.heavy {
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 300;
+}
+
+/*** Heading 1 ***/
+h1 {
+    font-size: 3.375rem;
+    line-height: 4.345rem;
+}
+
+/*** Heading 2 ***/
+h2 {
+    font-size: 3rem;
+    line-height: 2.93rem;
+}
+
+/*** Heading 3 ***/
+h3 {
+    font-size: 2.5rem;
+    line-height: 3.51rem;
+}
+
+/*** Heading 4 ***/
+h4 {
+    font-size: 2.06rem;
+    line-height: 2.41rem;
+    margin: 0 0 1.125rem 0;
+}
+
+/*** Heading 5 ***/
+h5 {
+    font-size: 1.75rem;
+    line-height: 2.05rem;
+}
+h6{
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+/*** Paragraph 1 ***/
+.ph1 {
+    font-size: 1.43rem;
+    line-height: 2.5rem;
+}
+
+/*** Paragraph 2 ***/
+.ph2 {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+/*** Paragraph 3 ***/
+.ph3 {
+    font-size: 0.812rem;
+    line-height: 1.375rem;
+}
+
+
+
+/****************************/
+/********* Buttons **********/
+/****************************/
+
+/*** Button - Primary ***/
+/* Filled */
+.btn-primary-filled {
+    background-color: #6EAE57;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.btn-primary-filled:hover {
+    background-color: #639D4F;
+}
+
+.btn-primary-filled:active {
+    background-color: #548544;
+}
+
+.btn-primary-filled:disabled {
+    background-color: #9F9F9F;
+}
+.btn-primary-filled:focus{
+    outline: none;
+}
+
+/* Ghost */
+.btn-primary-ghost {
+    background-color: transparent;
+    color: #6EAE57;
+    font-weight: 500;
+    border: 2px solid #6EAE57;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.btn-primary-ghost:hover {
+    border-color: #639D4F;
+    color: #639D4F;
+}
+
+.btn-primary-ghost:active {
+    border-color: #548544;
+    color: #548544;
+}
+
+.btn-primary-ghost:disabled {
+    border-color: #9F9F9F;
+    color: #9F9F9F;
+}
+.btn-primary-ghost:focus{
+    outline: none;
+}
+
+/* Text */
+.btn-primary-text {
+    background-color: transparent;
+    color: #6EAE57;
+    font-weight: 500;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-primary-text:hover {
+    color: #639D4F;
+}
+
+.btn-primary-text:active {
+    color: #548544;
+}
+
+.btn-primary-text:disabled {
+    color: #9F9F9F;
+}
+.btn-primary-text:focus{
+    outline: none;
+}
+
+/*** Button - Secondary ***/
+/* Filled */
+.btn-secondary-filled {
+    background-color: #EE9848;
+    color: white;
+    font-weight: 500;
+    border-style: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.btn-secondary-filled:hover {
+    background-color: #D88941;
+}
+
+.btn-secondary-filled:active {
+    background-color: #C07938;
+}
+
+.btn-secondary-filled:disabled {
+    background-color: #9F9F9F;
+}
+.btn-secondary-filled:focus{
+    outline: none;
+}
+
+/* Ghost */
+.btn-secondary-ghost {
+    background-color: transparent;
+    color: #EE9848;
+    font-weight: 500;
+    border: 2px solid #EE9848;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.btn-secondary-ghost:hover {
+    border-color: #D88941;
+    color: #D88941;
+}
+
+.btn-secondary-ghost:active {
+    border-color: #C07938;
+    color: #C07938;
+}
+
+.btn-secondary-ghost:disabled {
+    border-color: #9F9F9F;
+    color: #9F9F9F;
+}
+.btn-secondary-ghost:focus{
+    outline: none;
+}
+
+/* Text */
+.btn-secondary-text {
+    background-color: transparent;
+    color: #EE9848;
+    font-weight: 500;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-secondary-text:hover {
+    color: #D88941;
+}
+
+.btn-secondary-text:active {
+    color: #C07938;
+}
+
+.btn-secondary-text:disabled {
+    color: #9F9F9F;
+}
+.btn-secondary-text:focus{
+    outline: none;
+}
+
+/*** Button - Size ***/
+.btn-large {
+    font-size: 1.125rem;
+    padding: 1.187rem 1rem;
+}
+
+.btn-medium {
+    font-size: 1rem;
+    padding: 1rem 0.875rem;
+}
+
+.btn-small {
+    font-size: 0.875rem;
+    padding: 0.687rem;
+}
+
+
+
+/************************/
+/********* Nav **********/
+/************************/
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+nav img{
+    width: 11.62rem;
+    height: 2.25rem;
+    padding: 0 1rem 0 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 1.09rem;
+}
+
+nav ul li a {
+    display: block;
+    color: #4B4A4A;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav>ul>li>ul{
+    display: none;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
+nav>ul>li>ul>li{
+    float: none;
+    padding: 0 0.8rem;
+}
+nav ul li ul li a{
+    padding: 0 1rem;
+}
+
+nav>ul>li>ul>li:first-child{
+    display: block;
+    color: #4B4A4A;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase; 
+    text-align: center;
+}
+nav>ul>li>ul>li:first-child, nav>ul>li>ul>li:last-child{
+    margin-bottom: 0.8rem;
+}
+
+.submenu{
+    background-color: white;
+    border-radius: 0.625rem;
+    padding: 0.5rem 0;
+    position: absolute;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.3);
+    margin-left: -1.79rem;
+    margin-top: -1.9rem; 
+}
+.submenu li a{    
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1rem;
+}
+.submenu li a:hover{
+    color: #639D4F;
+}
+.submenu hr{
+    width: 80%;
+    border: 1px solid #cccccc;
+}
+.btn-session-off{
+    margin-left: 2.5rem;
+}
+
+
+/**************************/
+/********* Color **********/
+/**************************/
+
+/*** Color ***/
+
+.txt-white{
+    color: white;
+}
+.txt-black{
+    color: black;
+}
+.txt-darkgray{
+    color: #4B4A4A;
+}
+.txt-primary{
+    color: #6EAE57;
+}
+.txt-secondary{
+    color: #EE9848;
+}
+.fill-gray{
+    background-color: #F2F2F2;
+}
+.fill-darkgray{
+    background-color: #4B4A4A;
+}
+.fill-lightgreen{
+    background-color: #D4E7CD;
+}
+.fill-primary{
+    background-color: #6EAE57;
+}
+.fill-secondary{
+    background-color: #EE9848;
+}
+
+
+/************************/
+/********* Card *********/
+/************************/
+.card-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    width: 16.875rem;
+    height: 25.5rem;
+    border-radius: 0.5rem;
+    border-bottom: 0.35rem solid #D4D4D4;
+    box-shadow: 0 0 0.625rem #dddddd;
+    margin: 0 0.55rem;
+    cursor: pointer;
+    
+}
+.card:first-child{
+    /*margin-left: 0;*/
+}
+.card img{
+    width: 16.875rem;
+    border-radius: 0.5rem 0.5rem 0 0; 
+}
+.card .info-card{
+    padding: 1rem 1.25rem;
+    color: #4B4A4A;
+}
+.card div h6{
+    margin-bottom: 0.5rem;
+}
+.card div div span{
+    margin: 0 1.5rem 0 0.5rem;
+    position: relative;
+    top: -0.3125rem;
+}
+.card div div svg{
+    margin-top: 0.5rem;
+}
+.card .tags{
+    margin: 0 0 1.125rem 1.25rem;
+}
+.tags span{ 
+    background-color: #D4E7CD;
+    color: #548544;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    font-size: 0.8125rem;
+}
+.estado-card{ 
+    position: absolute;
+    margin: 1.125rem 0 0 1.125rem;
+    background-color: rgba(101,192,69,0.8);/*#65C045*/
+    color: #ffffff;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    font-size: 0.8125rem;
+}
+
+/***********************************/
+/********* Card Testimonio *********/
+/***********************************/
+.card-line-testimonio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-testimonio{
+    width: 16.875rem;
+    height: 25.5rem;
+    margin: 0 0.75rem;
+}
+.card-testimonio:first-child{
+    margin-left: 0;
+}
+.card-testimonio img{
+    width: 16.875rem;
+    border-radius: 0.5rem;
+}
+.info-card-testimonio{
+    padding: 0 1.25rem;
+    color: #4B4A4A;
+}
+.info-card-testimonio h6{
+    margin: 0.5rem 0;
+}
