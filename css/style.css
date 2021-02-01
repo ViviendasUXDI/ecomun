@@ -44,10 +44,13 @@ header div .cta-header {
 
 
 /*****************************/
+
 .two-column {
     display: flex;
     flex-direction: row;
-    padding: 6.25rem 13.5rem;
+    padding: 6.25rem 0;
+    max-width: 71rem;
+    margin: auto;
 }
 
 .two-column img {
